@@ -1,0 +1,31 @@
+using System;
+
+namespace _0424Ary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           Console.Clear();
+           string r = string.Empty;
+           
+                             
+
+           Console.WriteLine("Porfavor, digite a opção escolhida: a, b, c, d ou e");
+           r = (Console.ReadLine());
+           
+           Console.WriteLine("a opção escolhida foi  "+r);
+           
+            if (r=="c")
+            {   
+               Console.WriteLine("opção correta");
+               
+            }
+            
+            else 
+               Console.WriteLine("opção incorreta");
+               
+           
+        }
+    }
+}

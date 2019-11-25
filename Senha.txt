@@ -1,0 +1,25 @@
+using System;
+
+namespace _0422Ary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           int senha;
+           
+           Console.WriteLine("Porfavor, digite a senha de entrada de 4 números");
+           senha = Convert.ToInt32(Console.ReadLine());
+
+           
+           if (senha==1010)
+           {Console.WriteLine("Entrada autorizada");}
+           
+           else
+           {
+            Console.WriteLine("Sinto muito, mas a senha está incorreta");
+            
+           }
+        }
+    }
+}

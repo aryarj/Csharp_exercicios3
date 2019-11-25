@@ -1,0 +1,28 @@
+using System;
+
+namespace _0422Ary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           int maca;
+           double total;
+           Console.WriteLine("Porfavor, digite a quabntidade de maças desejadas");
+           Console.WriteLine("(quantidades abaixo de 12 cada maça sai por R$ 0,40");
+           Console.WriteLine("de 12 em diante cada maça custará R$ 0,30)");
+           maca = Convert.ToInt32(Console.ReadLine());
+        
+           
+           if (maca<12)
+           {   total=maca*0.4;
+               Console.WriteLine("As "+maca+"maças custarão: R$ "+total);}
+           
+           else
+           {
+            total=maca*0.3;
+            Console.WriteLine("As "+maca+"maças custarão: R$ "+total);
+            }
+        }
+    }
+}

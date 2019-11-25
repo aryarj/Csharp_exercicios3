@@ -1,0 +1,53 @@
+using System;
+
+namespace _0424Ary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           Console.Clear();
+           double n1=0;
+           double n2=0;
+           double n3=0;
+           double n4=0;
+           double m=0;
+           
+
+           Console.WriteLine("Porfavor, digite a primeira nota");
+           n1 = double.Parse(Console.ReadLine());
+
+           Console.WriteLine("Porfavor, digite a segunda nota");
+           n2 = double.Parse(Console.ReadLine());
+
+           Console.WriteLine("Porfavor, digite a terceira nota");
+           n3 = double.Parse(Console.ReadLine());
+
+           Console.WriteLine("Porfavor, digite a quarta nota");
+           n4 = double.Parse(Console.ReadLine());
+            m=(n1+n2+n3+n4)/4;
+
+            Console.WriteLine("A média foi:  "+m);      
+
+            if (m>=7)
+            {   
+               Console.WriteLine("O aluno foi aprovado");
+               
+            }
+            
+            else if (m<5)
+            {   
+               Console.WriteLine("O aluno foi reprovado");
+               
+            }
+            
+            else
+            {   
+               Console.WriteLine("O aluno ficou de exame");               
+            }
+
+                 
+          
+        }
+    }
+}

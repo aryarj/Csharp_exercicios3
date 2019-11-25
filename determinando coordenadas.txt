@@ -1,0 +1,54 @@
+using System;
+
+namespace _0424Ary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           Console.Clear();
+           string r = string.Empty;
+           
+                             
+
+           Console.WriteLine("Porfavor, digite a opção escolhida: de 0 a 4 e de -1 a -2");
+           Console.WriteLine("para saber em que posição ela se encontra");
+           r = (Console.ReadLine());
+           
+           Console.WriteLine("a opção escolhida foi  "+r);
+           switch (r)
+           {
+               case "0":{
+                   Console.WriteLine("coordenada na origem do sistema");
+               break;}
+
+               case "1" :{
+                   Console.WriteLine("coordenada no quadrante 1");
+               break;}
+
+                case "2" :{
+                   Console.WriteLine("coordenada no quadrante 2");
+               break;}
+            
+                case "3" :{
+                   Console.WriteLine("coordenada no quadrante 3");
+               break;}
+
+               case "4" :{
+                   Console.WriteLine("coordenada no quadrante 4");
+               break;}
+
+                case "-1" :{
+                   Console.WriteLine("coordenada no eixo x");
+               break;}
+
+               case "-2" :{
+                   Console.WriteLine("coordenada no eixo y");
+               break;}
+
+           }
+               
+           
+        }
+    }
+}

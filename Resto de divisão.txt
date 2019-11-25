@@ -1,0 +1,14 @@
+using System;
+
+namespace _0422Ary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           // Divisão de 10 por 2
+           Console.WriteLine("A divisão de 10 por 3 é:  "+10/3);
+            Console.WriteLine("O resto da divisão de 10 por 3 é:  " + 10%3);
+        }
+    }
+}

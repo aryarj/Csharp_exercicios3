@@ -1,0 +1,24 @@
+sing System;
+
+namespace _0422Ary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           int X,Y;
+           Console.WriteLine("Informe o valor de X");
+           X = Convert.ToInt32(Console.ReadLine());
+
+           Console.WriteLine("Informe o valor de Y");
+           Y = Convert.ToInt32(Console.ReadLine());
+
+           if (X>Y)
+           {Console.WriteLine("X é maior do que Y");}
+           else
+           {
+            Console.WriteLine("Y é maior do que X");   
+           }
+        }
+    }
+}

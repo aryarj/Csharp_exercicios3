@@ -1,0 +1,35 @@
+sing System;
+
+namespace _0422Ary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           int dia,mes,ano, total;
+           Console.WriteLine("Informe a sua data de nascimento");
+           Console.WriteLine("Porfavor, digite o dia");
+           dia = Convert.ToInt32(Console.ReadLine());
+
+           Console.WriteLine("Porfavor, digite o mês");
+           mes = Convert.ToInt32(Console.ReadLine());
+
+           Console.WriteLine("Porfavor, digite o ano");
+           ano = Convert.ToInt32(Console.ReadLine());
+            total = ((4-dia)+(10-mes)*30+(2020-ano)*365)/365;
+            Console.WriteLine("Total =  "+total);
+           Console.WriteLine("A próxima eleição será em 04/10/2020");
+           Console.WriteLine("Para votar você deve ter no mínimo 16 anos nessa data");
+           Console.WriteLine("sua data de nascimanto é: "+dia+"/"+mes+"/"+ano);
+           Console.WriteLine("você terá:  " + total + "anos");
+           if (total>=16)
+           {Console.WriteLine("Sim, você poderá votar");}
+           
+           else
+           {
+            Console.WriteLine("Sinto muito, mas você não poderá votar,");
+            Console.WriteLine("tem menos de 16 anos");   
+           }
+        }
+    }
+}
